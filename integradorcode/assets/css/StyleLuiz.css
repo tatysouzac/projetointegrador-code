@@ -1,0 +1,151 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+#cabecalho{
+	background-color:#000000;
+	height:160px;
+	width:100%;
+}
+
+#img1{
+	background-repeat: none;
+    background-position: right;
+}
+
+#menu{
+	background-color:#3B0B17; 
+	height:25px;
+    text-align: center;
+}
+
+#menu ul li{
+    display:inline;
+}
+#menu ul li a{
+
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+#menu ul li a:hover { 
+color:#FFFFFF;
+border-bottom: 3px solid #FFFFFF;
+}
+#menu ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#corpo{
+	background-color:#FFFFFF; 
+	height:800px;
+
+}
+#slider {
+     display: block;
+     height: 293px;
+     width: 600px;
+     margin: auto;
+     margin-top: 20px;
+     position: relative;
+ }
+ #demoFont {
+font-family: Yu Gothic UI Semibold;
+font-size: 24px;
+letter-spacing: -0.6px;
+word-spacing: 2px;
+color: #000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+}
+
+#rodape{
+	background-color:#3B0B17; 
+	height:150px;
+}
+#face{
+	width:50px;
+	height:50px;
+}
+
+#msg{
+	
+	width:400px;
+	height:50px;
+	
+	
+}
+#inputMotivo{
+	
+	
+	width:150px;
+	height:20px;
+	
+	
+}
+
+
+#loginBox{
+	
+	width:400px;
+	height:400px;
+	
+	
+}
+
+#cadastroBox{
+	
+	width: 500px;
+	height: 500px;
+	
+}
+
+	
+	
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#8a1111;
+	font-family:Arial;
+	font-size:14px;
+	padding:3px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+	
+
